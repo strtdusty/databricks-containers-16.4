@@ -18,3 +18,5 @@ df.show()
 
 # Stop the Spark session
 spark.stop()
+
+spark.sparkContext._gateway.jvm.System.exit(0)
